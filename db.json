@@ -53,6 +53,12 @@
       "especie": "Gato",
       "tutorId": "1",
       "id": "sWeXLDWSBHs"
+    },
+    {
+      "nome": "aa",
+      "especie": "Coelho",
+      "tutorId": "2",
+      "id": "nx4T7n7dYE4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -117,11 +117,13 @@ onMounted(carregarTutores);
           class="form-select"
           v-model="novoPet.tutorId"
         >
+
           <option
             value=""
             disabled
           >
             Selecione o Tutor
+            
           </option>
           <!-- bind do value do option com o id do tutor -->
           <option
@@ -131,6 +133,7 @@ onMounted(carregarTutores);
           >
             {{ tutor.nome }}
           </option>
+
         </select>
       </div>
 
