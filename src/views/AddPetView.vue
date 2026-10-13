@@ -123,9 +123,11 @@ onMounted(carregarTutores);
           >
             Selecione o Tutor
           </option>
+          <!-- bind do value do option com o id do tutor -->
           <option
             v-for="tutor in tutores"
             :key="tutor.id"
+            :value="tutor.id"
           >
             {{ tutor.nome }}
           </option>
