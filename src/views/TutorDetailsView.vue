@@ -7,29 +7,26 @@ const API_URL = 'http://localhost:3000';
 
 const tutor = ref(null);
 
-async function carregarPet() {
+async function carregarTutor() {
 // pegando o id do tutor que esta na url do negavor;
 const idTutor = route.params.id;
 
 // chamando a API para buscar pet pelo id;
-const respostaPet = await fetch(`${API_URL}/pets/${idPet}`);
-console.log('respostaPet', respostaPet);
+const respostaTutor = await fetch(`${API_URL}/tutores/${idTutor}`);
+console.log('respostaTutor', respostaTutor);
 
 //convertendo a resposta da API para JSON;
-console.log('tutor.value', tutor.value);
-
-// chamando a API para buscar o tutor pelo id;
-const respostaTutor = await fetch(`${API_URL}/tutores/${tutor.value.Id}`);
 tutor.value = await respostaTutor.json();
-console.log('Tutor, tudo.value', tutor.value);
+console.log('tutor', tutor.value);
+
 }
 
-onMounted(carregarPet)
+onMounted(carregarTutor)
 
 </script>
 
 <template>
-<section v-if="pet === null">
+<section v-if="tutor === null">
 <p>Carregando...</p>
 </section>
 
