@@ -43,7 +43,5 @@ onMounted(carregarPet)
 <h5>Espécie: {{ pet.especie }}</h5>
 </section>
 
-
-
 </template>
 

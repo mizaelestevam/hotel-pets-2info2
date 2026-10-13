@@ -67,6 +67,7 @@ onMounted(carregarDados);
           <th>Nome</th>
           <th>Espécie</th>
           <th>Tutor</th>
+          <th>ações</th>
         </tr>
       </thead>
       <tbody>
