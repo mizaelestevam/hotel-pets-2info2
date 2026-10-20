@@ -37,6 +37,7 @@ const router = createRouter({
       name: 'detalhes-tutor',
       component: () => import('../views/TutorDetailsView.vue'),
     },
+    
 
   ],
 });

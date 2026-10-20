@@ -10,17 +10,17 @@ const API_URL = 'http://localhost:3000';
 
 // chamar a minha API para listar todos os pets e tutores;
 async function carregarDados() {
- 
+
 
   const respostaTutores = await fetch(`${API_URL}/tutores`);
   tutores.value = await respostaTutores.json();
 
- 
+
   console.table(tutores.value);
 }
 
 
-  
+
 async function excluirTutor(id) {
 const confirmarExclusao = window.confirm('Deseja realmente excluir este tutor?');
 
@@ -56,9 +56,13 @@ onMounted(carregarDados);
         <tr>
           <th>ID</th>
           <th>Nome</th>
-          <th>Telefone</th>
+          <th>CPF/CNPJ</th>
+          <th>Telefone/ Celular/ WhatsApp</th>
+          <th>Email</th>
+          <th>Pets(Quantidade)</th>
+          <th>Nomes Pets</th>
           <th>Ações</th>
-          
+
         </tr>
       </thead>
       <tbody>
@@ -68,7 +72,11 @@ onMounted(carregarDados);
         >
           <td>{{ tutor.id }}</td>
           <td>{{ tutor.nome }}</td>
+          <td>{{ tutor.cpf }}</td>
           <td>{{ tutor.telefone }}</td>
+          <td>{{ tutor.email }}</td>
+
+
           <td>
             <RouterLink :to="`/tutores/${tutor.id}`">Visualizar</RouterLink>
             <button class="btn btn-danger" @click="excluirTutor(tutor.id)">Excluir</button>

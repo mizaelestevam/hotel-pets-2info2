@@ -9,6 +9,38 @@
       "id": "2",
       "nome": "Carlos",
       "telefone": "47988880000"
+    },
+    {
+      "nome": "hyj",
+      "telefone": "56756765",
+      "cpf": "657657",
+      "email": "uyhnyjhg@jhadsad",
+      "data": "2026-10-08",
+      "endereco": {
+        "rua": "432432",
+        "numero": "43242354645",
+        "bairro": "6456456",
+        "cidade": "8798790870",
+        "estado": "7657657657",
+        "cep": "32432"
+      },
+      "id": "3"
+    },
+    {
+      "nome": "frgr",
+      "telefone": "rtgrtgtr",
+      "cpf": "rtgtrg",
+      "email": "trgrtgrt",
+      "data": "5345-04-04",
+      "endereco": {
+        "rua": "regreg",
+        "numero": "gerger",
+        "bairro": "rg",
+        "cidade": "gerger",
+        "estado": "hfhgf",
+        "cep": "rgreg"
+      },
+      "id": "-CTICt34kw8"
     }
   ],
   "pets": [
@@ -19,7 +51,7 @@
       "id": "CSroFsQHs1w"
     },
     {
-      "nome": "Amora",
+      "nome": "Mingau",
       "especie": "Gato",
       "tutorId": "1",
       "id": "sWeXLDWSBHs"
