@@ -3,12 +3,34 @@
     {
       "id": "1",
       "nome": "Ana",
-      "telefone": "47999990000"
+      "telefone": "47999990000",
+      "cpf": "37251515040",
+      "email": "yancouba1654@uorak.com",
+      "data": "1956-04-30",
+      "endereco": {
+        "rua": "Travessa Paulista",
+        "numero": "1456",
+        "bairro": "Boa Viagem",
+        "cidade": "Recife",
+        "estado": "Pernambuco",
+        "cep": "50586061"
+      }
     },
     {
       "id": "2",
       "nome": "Carlos",
-      "telefone": "47988880000"
+      "telefone": "47988880000",
+      "cpf": "51015775020",
+      "email": "recuerdo8086@uorak.com",
+      "data": "2000-06-23",
+      "endereco": {
+        "rua": "Praça Presidente Kennedy",
+        "numero": "2725",
+        "bairro": "Águas Claras",
+        "cidade": "Brasília",
+        "estado": "Distrito Federal",
+        "cep": "70543163"
+      }
     },
     {
       "nome": "hyj",
